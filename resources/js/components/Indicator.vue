@@ -1,5 +1,5 @@
 <template>
-    <span class="whitespace-no-wrap" v-if="!field.shouldHide">
+    <span class="whitespace-nowrap" v-if="!field.shouldHide">
         <span
             class="inline-block indicator-grey rounded-full w-2 h-2 mr-2"
             v-bind="colorClassStyle"

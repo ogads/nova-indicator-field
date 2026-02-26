@@ -108,7 +108,7 @@ class Indicator extends Field
     /**
      * @inheritDoc
      */
-    public function resolveForDisplay($resource, $attribute = null)
+    public function resolveForDisplay($resource, ?string $attribute = null): void
     {
         parent::resolveForDisplay($resource, $attribute);
 
